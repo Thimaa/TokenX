@@ -29,7 +29,18 @@ const Work = () => {
         </div>
 
         <div className="flex flex-col  w-auto h-full  mt-5 bg-[#EFF1F5] rounded-[16px]  dark:bg-[#010511] ">
-          <div className="w-[460px] h-[328px]  px-8  py-5 rounded-[16px]  ">
+          <div className="relative w-[460px] h-[328px]  px-8   rounded-[16px]  ">
+            <div className='flex justify-end'>
+              <Image
+                src="/Works/card2.png"
+                alt="card 1"
+                width={200}
+                height={100}
+                objectFit="cover"
+                className="rounded-[16px]"
+              />
+            </div>
+
             <h2 className="font-bold text-[24px] mb-1 dark:text-white">
               Invest in Tokens
             </h2>
@@ -48,16 +59,15 @@ const Work = () => {
             Utilize your tokens to raise capital and boost your project’s
             potential.
           </p>
-          
-            <Image
-              src="/Works/card 3.png"
-              alt="card 1"
-              width={300}
-              height={200}
-              objectFit="cover"
-              className=""
-            />
-          
+
+          <Image
+            src="/Works/card 3.png"
+            alt="card 1"
+            width={300}
+            height={200}
+            objectFit="cover"
+            className=""
+          />
         </div>
 
         <div className="flex flex-col  w-auto h-full  mt-5 bg-[#EFF1F5] rounded-[16px]   ">
