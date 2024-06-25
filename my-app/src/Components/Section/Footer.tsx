@@ -13,41 +13,31 @@ const Footer = () => {
               height={66}
               alt="logo"
             />
-            <h1>info.tokenX@gmail.com</h1>
-            <h2>+005 765 1862 8822</h2>
+            <h1 className="text-[16px] text-white mb-3 mt-8">
+              info.tokenX@gmail.com
+            </h1>
+            <h2 className="text-[16px] text-white">+005 765 1862 8822</h2>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-[20px] font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-[20px] font-semibold text-white  dark:text-white">
                 Links
               </h2>
               <ul className="text-white text-[16px]">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
-                    Project
-                  </a>
+                  <a className="hover:underline">Project</a>
                 </li>
                 <li className="mb-4">
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="hover:underline"
-                  >
-                    How It works
-                  </a>
+                  <a className="hover:underline">How It works</a>
                 </li>
                 <li>
-                  <a
-                    href="https://tailwindcss.com/"
-                    className="mb-4 hover:underline"
-                  >
-                    FAQ
-                  </a>
+                  <a className="mb-4 hover:underline">FAQ</a>
                 </li>
               </ul>
             </div>
 
             <div className="grid col-start-4">
-              <h2 className="mb- text-[20px] font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb- text-[20px] font-semibold text-white">
                 Social Media
               </h2>
               <div className="flex justify-center gap-4">
@@ -81,16 +71,15 @@ const Footer = () => {
         </div>
 
         <hr className="border my-6 w-full" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2023{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
-            </a>
-            . All Rights Reserved.
-          </span>
+        <div className="sm:flex sm:items-center sm:justify-around">
+          <div className="flex gap-2" >
+            <Image src="/Icon/c.png" width={24} height={20} alt="logo" />
+            <h1 className="text-white">TokenX,Inc</h1>
+          </div>
+
+          <h1 className="text-white">Terms</h1>
+          <h1 className="text-white">Privacy Policy</h1>
         </div>
-        <hr className="flex justify-start w-[1380px] border " />
       </div>
     </footer>
   );

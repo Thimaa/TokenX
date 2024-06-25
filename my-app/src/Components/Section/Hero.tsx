@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="flex w-full flex-col xl:flex-row items-center justify-center gap-32 px-10 dark:bg-black">
       <div className=" flex-col items-center ">
         <h1 className="text-[px] sm:text-[36px] xl:text-[96px] font-semibold   text-center xl:text-left dark:text-white">
-          Tokenx
+          TokenX
         </h1>
         <h4 className="text-[24px] font-light max-w-[700px] dark:text-white">
           TokenX is the premier platform for investors and enthusiasts to buy,

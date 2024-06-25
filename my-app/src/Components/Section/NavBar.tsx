@@ -13,7 +13,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className={`${darkMode ? "dark" : ""} min-h-screen`}>
+    <div className={`${darkMode ? "dark" : ""} `}>
       <div className="w-full flex justify-between h-40 px-20 py-8 bg-white dark:bg-black">
         <div>
           <Image width={80} height={80} alt="logo" src="/icon/logo.svg" />

@@ -5,7 +5,7 @@ const FeatureProduct = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h1 className="text-[32px] font-bold mt-10 dark:text-white"> Featured Projects</h1>
-      <div className="flex flex-row gap-10 mt-10">
+      <div className="flex xl:flex-row flex-col gap-10 mt-10">
         <div className="flex flex-col  w-auto h-full  mt-5">
           <Image
             src="/product/1.png"
