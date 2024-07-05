@@ -20,10 +20,10 @@ const AdminDashbord: React.FC = () => {
   return (
     <div className=" dark:bg-black">
       <AdminDashbordSideBar onMenuItemClick={handleMenuItemClick} />
-      <div className="ml-70 mb-5 ">
+      <div className="xl:ml-70 ml-10 mb-5 ">
         <NavBar title={navTitle} />
       </div>
-      <div className="ml-70 px-5">
+      <div className="xl:ml-70 ml-10 px-5">
         <div className="flex flex-row justify-between items-center w-full h-[102px] bg-[#EBEFFD]  px-10 p-10 rounded-[12px] mb-5">
           <div className="flex flex-col ">
             <h1 className="text-[20px] font-medium ">Overview</h1>
@@ -48,8 +48,8 @@ const AdminDashbord: React.FC = () => {
           <Card />
         </div>
 
-        <div className="flex flex-row  gap-10 mb-10">
-          <div className="w-[723px] h-[337px] border border-black gap-10">
+        <div className="flex xl:flex-row  flex-col gap-10 mb-10">
+          <div className="w-full h-[337px] border border-black gap-10">
             <h1 className="text-xl font-medium">Analytics and Reporting </h1>
             <Chart />
           </div>
@@ -58,7 +58,7 @@ const AdminDashbord: React.FC = () => {
             <Report />
           </div>
         </div>
-        <div className="flex flex-row gap-10 mb-10">
+        <div className="flex xl:flex-row flex-col gap-10 mb-10">
           <div className="mt-">
             <h1 className="font-medium text-[20px] mb-10">Pending Project</h1>
             <Pending />

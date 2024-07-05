@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 const Transction = () => {
   return (
-    <div className="flex flex-col justify-between w-[723px] gap-5 ">
+    <div className="flex flex-col justify-between w-[830px]   gap-5 ">
       <div className="flex flex-row justify-between  px-9 h-[40px] border-b border-[#D1D1D1]">
         <div>
           <h1>user</h1>
         </div>
-        <div className="flex flex-row justify-around gap-[70px]">
+        <div className="flex flex-row justify-around gap-[90px]">
           <h1>Type</h1>
           <h1 className="">Amount</h1>
           <h1 className="mr-5">Date</h1>
@@ -24,10 +24,10 @@ const Transction = () => {
             height={20}
             alt="profile-logo"
           />
-          <h1>James Stive</h1>
+          <h1 className=''>James Stive</h1>
         </div>
-        <div className="flex flex-row justify-around gap-14 items-center">
-          <h1 className="text-[#0243EA] text-sm">Buy</h1>
+        <div className="flex flex-row justify-around gap-[70px] items-center">
+          <h1 className="text-[#0243EA] text-sm mr-5">Buy</h1>
           <h1 className="text-sm">$ 321.65</h1>
           <h1 className="text-sm">2023.05.22</h1>
           <div className="flex items-center gap-5">
@@ -46,8 +46,8 @@ const Transction = () => {
           />
           <h1>James Stive</h1>
         </div>
-        <div className="flex flex-row justify-around gap-14 items-center">
-          <h1 className="text-[#E80000] text-sm">Buy</h1>
+        <div className="flex flex-row justify-around gap-[70px] items-center">
+          <h1 className="text-[#E80000] text-sm mr-5">Buy</h1>
           <h1 className="text-sm">$ 321.65</h1>
           <h1 className="text-sm">2023.05.22</h1>
           <div className="flex items-center gap-8">
@@ -66,8 +66,8 @@ const Transction = () => {
           />
           <h1>James Stive</h1>
         </div>
-        <div className="flex flex-row justify-around gap-14 items-center">
-          <h1 className="text-[#E80000] text-sm">Buy</h1>
+        <div className="flex flex-row justify-around gap-[70px] items-center">
+          <h1 className="text-[#E80000] text-sm mr-5">Buy</h1>
           <h1 className="text-sm">$ 321.65</h1>
           <h1 className="text-sm">2023.05.22</h1>
           <div className="flex items-center gap-5">
@@ -86,8 +86,8 @@ const Transction = () => {
           />
           <h1>James Stive</h1>
         </div>
-        <div className="flex flex-row justify-around gap-14 items-center">
-          <h1 className="text-[#E80000] text-sm">Buy</h1>
+        <div className="flex flex-row justify-around gap-[70px] items-center">
+          <h1 className="text-[#E80000] text-sm mr-5 ">Buy</h1>
           <h1 className="text-sm">$ 321.65</h1>
           <h1 className="text-sm">2023.05.22</h1>
           <div className="flex items-center gap-5">

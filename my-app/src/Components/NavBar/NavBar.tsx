@@ -34,7 +34,7 @@ const NavBar: React.FC<NavBarProps> = ({ title }) => {
             alt="icon"
           />
         </div>
-        <div className="flex flex-row justify-center items-center gap-5 px-5 h-[56px] bg-[#EFF1F5] rounded-[12px]">
+        <div className="flex xl:flex-row  justify-center items-center gap-5 px-5 h-[56px] bg-[#EFF1F5] rounded-[12px]">
           <div className="">
             <Image
               src="/admin-dashbord/profile.png"
