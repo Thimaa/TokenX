@@ -30,7 +30,11 @@ const AdminDashbordSideBar: React.FC<AdminDashbordSideBarProps> = ({
       icon: "/Dashbord-Icons/icon2.png",
       href: "/project-approval",
     },
-    { name: "User Management", icon: "/Dashbord-Icons/icon2.png" },
+    {
+      name: "User Management",
+      icon: "/Dashbord-Icons/icon2.png",
+      href: "/user-management",
+    },
     { name: "Content Moderation", icon: "/Dashbord-Icons/icon2.png" },
     { name: "Financial Overview", icon: "/Dashbord-Icons/icon2.png" },
     { name: "Marketplace Management", icon: "/Dashbord-Icons/icon3.png" },
@@ -109,7 +113,7 @@ const AdminDashbordSideBar: React.FC<AdminDashbordSideBarProps> = ({
                     onMenuItemClick(item.name);
                     if (window.innerWidth < 1024) setSidebarOpen(false); // Close sidebar on mobile after click
                   }}
-                  className={`flex mb-2 justify-start items-center gap-5 pl-10 p-2 group cursor-pointer m-auto h-[52px] ${
+                  className={`flex mb-2 justify-start items-center gap-5 pl-10 p-6 group cursor-pointer m-auto h-[52px] ${
                     activeItem === item.name
                       ? "bg-[#0243EA] text-white"
                       : "hover:bg-[#0243EA] hover:text-white text-[#909090]"
